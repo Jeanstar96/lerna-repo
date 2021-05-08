@@ -2,6 +2,13 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "prettier": "^1.18.2",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0"
+  },
+  "dependencies": {
+    "module-1": "file:packages/module-1",
+    "module-2": "file:packages/module-2"
   }
 }
